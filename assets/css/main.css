@@ -1,0 +1,272 @@
+/* Colors */
+:root {
+  --primary-color: #006361;
+  --secondary-color: #fbbb39;
+  --third-color: #ff6902;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.section_margin {
+  margin-bottom: 150px;
+}
+
+.bottom_spacing {
+  height: 200px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* navbar styling  */
+.navbar_title {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+
+.btn_navbar_contact {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* small screen menu offcanvas  */
+.menu_icon {
+  font-size: 25px;
+}
+
+.offcanvas_icon {
+  font-size: 22px;
+  margin-right: 10px;
+  color: var(--third-color);
+}
+
+.offcanvas-title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.offcanvas_logo {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* hero styling  */
+.hero_background {
+  background-color: var(--primary-color);
+}
+
+.hero_image {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.hero_pattern {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(179, 100%, 19%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='1' stroke='hsla(259, 41%, 98%, 0.07)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.hero_title {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 70px;
+}
+
+.contact_btn {
+  background-color: var(--third-color);
+  color: white;
+  font-weight: bold;
+}
+
+.contact_btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* about styling  */
+.about_img {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.about_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* academic styling  */
+.academic_container {
+  background-color: #006361af;
+}
+
+.academic_padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.academic_card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.acedemic_background_card {
+  background-color: var(--third-color) !important;
+  color: white !important;
+}
+
+/* Join school banner  */
+.join_container {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='1' stroke='hsla(179, 100%, 19%, 0.09)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.join_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Banner section  */
+.banner {
+  background-color: var(--primary-color);
+}
+
+.banner_card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.banner_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* reviews style  */
+.review_container {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(10) rotate(145)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='4' stroke='hsla(179, 100%, 19%, 0.09)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.review_card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.person_icon {
+  color: var(--third-color);
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+/* Footer style  */
+.footer_image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer_container {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(10) rotate(145)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 100%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='4' stroke='hsla(24, 100%, 50%, 0.1803921568627451)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.footer_titles {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.footer_links {
+  color: black;
+}
+
+/* Motivation  */
+.motivation_text {
+  color: lightgray;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .hero_title {
+    font-size: 50px;
+  }
+
+  .sm_margin {
+    margin-bottom: 50px;
+  }
+
+  .banner_margin {
+    margin-bottom: 40px;
+  }
+}
+
+/****** ABOUT PAGE  ******/
+.about_page_card {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.about_page_title {
+  color: white;
+  font-weight: bold;
+}
+
+.about_page_p {
+  color: rgb(230, 230, 230);
+}
+
+.apart_icon {
+  font-size: 30px;
+  color: var(--third-color);
+}
+
+.about_banner {
+  background-color: var(--third-color);
+  border-radius: 10px;
+}
+
+.about_banner_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.btn_about_banner {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  width: 70%;
+}
+
+/****** ABOUT PAGE  ******/
+.subjects_container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(7) rotate(165)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(179, 100%, 19%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='3' stroke='hsla(259, 57%, 98%, 0.04)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(7) rotate(165)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(179, 100%, 19%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='3' stroke='hsla(259, 57%, 98%, 0.1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>"); */
+}
+
+.action_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.action_btn {
+  background-color: var(--secondary-color);
+  width: 70%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/****** CONTACT PAGE  ******/
+
+.contact_details {
+  border-radius: 10px;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(7) rotate(165)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(179, 100%, 19%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='3' stroke='hsla(259, 57%, 98%, 0.04)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.contact_icon {
+  font-size: 20px;
+  color: var(--third-color);
+  margin-right: 15px;
+}

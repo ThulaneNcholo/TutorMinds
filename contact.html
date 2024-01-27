@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Montserrat google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lato google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>TutorMinds</title>
+  </head>
+  <body>
+    <!-- ======= Navbar ======= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+      <div class="container">
+        <a class="navbar-brand navbar_title" href="index.html">
+          <img
+            src="assets/images/footer01.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          TutorMinds
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasmenu"
+          aria-controls="offcanvasmenu"
+        >
+          <i class="bi bi-list menu_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subjects.html">Subjects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn_navbar_contact">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Small Screen Menu Offcanvas ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasmenu"
+      aria-labelledby="offcanvasmenuLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">TutorMinds</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <a href="index.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Home</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="about.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">About</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="subjects.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Subjects</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="contact.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Contact</p>
+          </div>
+        </a>
+        <!-- end item  -->
+
+        <center>
+          <img
+            src="assets/images/footer01.svg"
+            alt=""
+            class="offcanvas_logo mt-5"
+          />
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= contact details ======= -->
+    <section class="container py-5 my-5">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 order-md-2 sm_margin"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <img
+            src="assets/images/contact_image02.svg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div
+          class="col-12 col-md-6 order-md-1"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="contact_details p-4">
+            <h3 class="text-white mb-4 fw-bold">Contact Us</h3>
+            <div class="d-flex mb-3">
+              <i class="bi bi-telephone-fill contact_icon"></i>
+              <p class="text-white mb-0">011 736 8480</p>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="bi bi-telephone-fill contact_icon"></i>
+              <p class="text-white mb-0">011 736 1299</p>
+            </div>
+            <div class="d-flex mb-3">
+              <i class="bi bi-envelope-fill contact_icon"></i>
+              <p class="text-white mb-0">admin@tutorminds.co.za</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Map Frame ======= -->
+    <section class="container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.75890598274!2d27.95762358812991!3d-26.17149804512546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg!5e0!3m2!1sen!2sza!4v1706004709353!5m2!1sen!2sza"
+        width="100%"
+        height="450"
+        style="border: 0; border-radius: 10px"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- ======= Call to Action ======= -->
+    <section
+      class="container py-5 my-5"
+      data-aos="zoom-in"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      <h3 class="action_title text-center mb-3">
+        Your Academic Journey Starts Here
+      </h3>
+      <center>
+        <p class="mb-2">
+          Whether you're a student looking for subject-specific help, exam
+          preparation, or guidance towards academic excellence, TutorMinds is
+          here for you. Join us on this exciting journey of knowledge,
+          innovation, and personal growth. Together, let's unlock your true
+          potential.
+        </p>
+        <p class="text-secondary">
+          Thank you for choosing TutorMinds—where education meets inspiration
+        </p>
+        <button class="btn action_btn py-2 mt-3">Join Now</button>
+      </center>
+    </section>
+
+    <!-- ======= Footer section ======= -->
+    <section class="subjects_container py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Explore</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-light">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about.html" class="nav-link p-0 text-light">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="subjects.html" class="nav-link p-0 text-light"
+                  >Subjects</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact.html" class="nav-link p-0 text-light"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Subjects</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Algebra</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light"
+                  >Literary Analysis</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Biology</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">History</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">English</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Subjects</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Geography</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Computer Science</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Physical </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Economics</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Music </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <img src="assets/images/footer01.svg" alt="" class="footer_image" />
+          </div>
+          <!-- end item  -->
+        </div>
+
+        <center>
+          <p class="mt-5">
+            © <span id="currentYear"> </span> TutorMinds. All rights reserved
+            belong to
+            <a href="https://gnttechnology.co.za/" target="_blank">
+              <span class="fw-bold" style="color: orangered"
+                >GNT TECHNOLOGY</span
+              >
+            </a>
+            .
+          </p>
+        </center>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      <!-- // Get the current year  -->
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

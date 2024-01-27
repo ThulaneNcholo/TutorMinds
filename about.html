@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Montserrat google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lato google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>TutorMinds</title>
+  </head>
+  <body>
+    <!-- ======= Navbar ======= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
+      <div class="container">
+        <a class="navbar-brand navbar_title" href="index.html">
+          <img
+            src="assets/images/footer01.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          TutorMinds
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasmenu"
+          aria-controls="offcanvasmenu"
+        >
+          <i class="bi bi-list menu_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subjects.html">Subjects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn btn_navbar_contact">Join Now</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Small Screen Menu Offcanvas ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasmenu"
+      aria-labelledby="offcanvasmenuLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">TutorMinds</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <a href="index.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Home</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="about.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">About</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="subjects.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Subjects</p>
+          </div>
+        </a>
+        <!-- end item  -->
+        <a href="contact.html">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-circle-fill offcanvas_icon"></i>
+            <p class="mb-0 offcanvas_p">Contact</p>
+          </div>
+        </a>
+        <!-- end item  -->
+
+        <center>
+          <img
+            src="assets/images/footer01.svg"
+            alt=""
+            class="offcanvas_logo mt-5"
+          />
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= Logo ======= -->
+    <section class="container py-5 mb-5">
+      <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+        <center>
+          <img src="assets/images/footer01.svg" alt="" class="img-fluid" />
+        </center>
+      </div>
+    </section>
+
+    <!-- ======= About Content ======= -->
+    <section class="container py-5 mb-5">
+      <div class="row">
+        <div
+          class="col-12 col-md-6 mb-3"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <h4 class="mb-3 about_title">About TutorMinds</h4>
+          <p>
+            Welcome to TutorMinds, a hub of academic excellence and personalized
+            learning experiences. At TutorMinds, we believe that education goes
+            beyond textbooks—it's about fostering a love for learning and
+            empowering individuals to reach their highest potential.
+          </p>
+        </div>
+        <div
+          class="col-12 col-md-6"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <h4 class="mb-3 about_title">Our Mission</h4>
+          <p>
+            TutorMinds was founded with a simple yet powerful mission: to
+            redefine the tutoring experience. We aim to provide more than just
+            academic support; we strive to be your partners in the journey of
+            education, offering guidance, inspiration, and a personalized
+            approach to learning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Sets us apart ======= -->
+    <section class="container py-5 mb-5">
+      <div class="row">
+        <div
+          class="col-12 h-100 col-md-6 mb-4"
+          data-aos="zoom-in-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="about_page_card p-3">
+            <i class="bi bi-check-circle-fill apart_icon"></i>
+            <h5 class="about_page_title mt-4">Dedicated Tutors</h5>
+            <p class="about_page_p mb-0">
+              Our team of expert tutors is not just academically qualified but
+              also passionate about teaching. They are committed to
+              understanding your unique needs and tailoring lessons to help you
+              succeed.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 h-100 col-md-6 mb-4"
+          data-aos="zoom-in-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="about_page_card p-3">
+            <i class="bi bi-check-circle-fill apart_icon"></i>
+            <h5 class="about_page_title mt-4">Personalized Learning Plans</h5>
+            <p class="about_page_p mb-0">
+              We understand that every learner is unique. That's why we create
+              personalized learning plans designed to address individual
+              strengths, challenges, and goals. Your success is our priority.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 h-100 col-md-6 mb-4"
+          data-aos="zoom-in-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="about_page_card p-3">
+            <i class="bi bi-check-circle-fill apart_icon"></i>
+            <h5 class="about_page_title mt-4">Innovation in Education</h5>
+            <p class="about_page_p mb-0">
+              TutorMinds embraces innovative teaching methods, making learning
+              an engaging and enjoyable experience. We go beyond traditional
+              tutoring, incorporating technology and interactive approaches to
+              enhance understanding.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 h-100 col-md-6"
+          data-aos="zoom-in-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="about_page_card p-3">
+            <i class="bi bi-check-circle-fill apart_icon"></i>
+            <h5 class="about_page_title mt-4">
+              Flexibility for Your Lifestyle
+            </h5>
+            <p class="about_page_p mb-0">
+              Life is busy, and education should fit seamlessly into your
+              schedule. With flexible tutoring hours and online sessions,
+              TutorMinds ensures that learning is convenient and accessible.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= about banner ======= -->
+    <section class="container py-5 mb-5">
+      <div
+        class="about_banner p-5"
+        data-aos="flip-up"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        <h4 class="about_banner_title">Your Academic Journey Starts Here</h4>
+        <p>
+          Whether you're a student looking for subject-specific help, exam
+          preparation, or guidance towards academic excellence, TutorMinds is
+          here for you. Join us on this exciting journey of knowledge,
+          innovation, and personal growth. Together, let's unlock your true
+          potential.
+        </p>
+        <p>
+          Thank you for choosing TutorMinds—where education meets inspiration
+        </p>
+        <center>
+          <a href="contact.html">
+            <button class="btn btn_about_banner py-2 mt-3">Contact Us!</button>
+          </a>
+        </center>
+      </div>
+    </section>
+
+    <!-- ======= Footer section ======= -->
+    <section class="subjects_container py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Explore</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-light">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about.html" class="nav-link p-0 text-light">About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="subjects.html" class="nav-link p-0 text-light"
+                  >Subjects</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact.html" class="nav-link p-0 text-light"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Subjects</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Algebra</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light"
+                  >Literary Analysis</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Biology</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">History</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">English</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <h5 class="footer_titles text-white">Subjects</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Geography</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Computer Science</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Physical </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Economics</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Music </a>
+              </li>
+            </ul>
+          </div>
+          <!-- end item  -->
+          <div class="col-6 col-lg-3 mb-3">
+            <img src="assets/images/footer01.svg" alt="" class="footer_image" />
+          </div>
+          <!-- end item  -->
+        </div>
+
+        <center>
+          <p class="mt-5">
+            © <span id="currentYear"> </span> TutorMinds. All rights reserved
+            belong to
+            <a href="https://gnttechnology.co.za/" target="_blank">
+              <span class="fw-bold" style="color: orangered"
+                >GNT TECHNOLOGY</span
+              >
+            </a>
+            .
+          </p>
+        </center>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      <!-- // Get the current year  -->
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
